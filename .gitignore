@@ -1,0 +1,11 @@
+/.idea
+/logs
+/node_modules
+/run
+/test
+*.zip
+admin/run/agent_config_meta.json
+admin/run/application_config_meta.json
+admin/run/application_config.json
+admin/run/router.json
+admin/run/agent_config.json

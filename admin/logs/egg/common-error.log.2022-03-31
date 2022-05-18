@@ -1,0 +1,115 @@
+2022-03-18 13:10:30,497 ERROR 12032 nodejs.ClusterClientNoResponseError: client no response in 3176515ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\mrs-app-code-creator\admin\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12032
+hostname: DESKTOP-IKGNHEN
+
+2022-03-30 16:09:38,001 ERROR 2304 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'dictName' in 'field list'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: UPDATE `gen_project_config` SET `id` = 92, `project_id` = 5, `key` = 'id', `name` = 'ID', `type` = 'date', `html_type` = NULL, `is_deleted` = '0', `sort` = '1', `is_insert` = '1', `is_edit` = '1', `is_list` = '1', `is_query` = '1', `is_more_query` = '1', `dictName` = '' WHERE `id` = 92
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'dictName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `gen_project_config` SET `id` = 92, `project_id` = 5, `key` = 'id', `name` = 'ID', `type` = 'date', `html_type` = NULL, `is_deleted` = '0', `sort` = '1', `is_insert` = '1', `is_edit` = '1', `is_list` = '1', `is_query` = '1', `is_more_query` = '1', `dictName` = '' WHERE `id` = 92"
+name: "unhandledRejectionError"
+pid: 2304
+hostname: DESKTOP-IKGNHEN
+
+2022-03-30 16:09:38,009 ERROR 2304 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'dictName' in 'field list'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: UPDATE `gen_project_config` SET `id` = 86, `project_id` = 5, `key` = 'plantName', `name` = '装置', `type` = 'datetime', `html_type` = NULL, `is_deleted` = '0', `sort` = 2, `is_insert` = '1', `is_edit` = '0', `is_list` = '1', `is_query` = '1', `is_more_query` = '0', `dictName` = '1' WHERE `id` = 86
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'dictName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `gen_project_config` SET `id` = 86, `project_id` = 5, `key` = 'plantName', `name` = '装置', `type` = 'datetime', `html_type` = NULL, `is_deleted` = '0', `sort` = 2, `is_insert` = '1', `is_edit` = '0', `is_list` = '1', `is_query` = '1', `is_more_query` = '0', `dictName` = '1' WHERE `id` = 86"
+name: "unhandledRejectionError"
+pid: 2304
+hostname: DESKTOP-IKGNHEN
+
+2022-03-30 16:13:13,901 ERROR 2304 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'dictName' in 'field list'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: UPDATE `gen_project_config` SET `id` = 70, `project_id` = 5, `key` = 'serialNumber', `name` = '设备编码', `type` = 'singleSelect', `html_type` = NULL, `is_deleted` = '0', `sort` = 3, `is_insert` = '0', `is_edit` = '1', `is_list` = '0', `is_query` = '0', `is_more_query` = '1', `dictName` = '' WHERE `id` = 70
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'dictName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `gen_project_config` SET `id` = 70, `project_id` = 5, `key` = 'serialNumber', `name` = '设备编码', `type` = 'singleSelect', `html_type` = NULL, `is_deleted` = '0', `sort` = 3, `is_insert` = '0', `is_edit` = '1', `is_list` = '0', `is_query` = '0', `is_more_query` = '1', `dictName` = '' WHERE `id` = 70"
+name: "unhandledRejectionError"
+pid: 2304
+hostname: DESKTOP-IKGNHEN
+
+2022-04-01 08:53:10,448 ERROR 19392 nodejs.ClusterClientNoResponseError: client no response in 76920465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\mrs-app-code-creator\admin\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19392
+hostname: DESKTOP-IKGNHEN
+

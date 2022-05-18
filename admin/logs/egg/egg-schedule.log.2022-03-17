@@ -1,0 +1,27 @@
+2022-03-16 16:44:11,498 INFO 12224 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-16 16:44:11,498 INFO 12224 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-16 16:44:11,499 INFO 12224 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-16 16:44:12,114 INFO 18940 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42347890ms at 2022-03-17 04:30:00.003
+2022-03-16 16:44:12,114 INFO 18940 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 26147886ms at 2022-03-17 00:00:00.000
+2022-03-16 16:44:12,114 INFO 18940 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 26148886ms at 2022-03-17 00:00:01.000
+2022-03-16 16:49:36,146 INFO 14476 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-16 16:49:36,146 INFO 14476 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-16 16:49:36,146 INFO 14476 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-16 16:49:57,262 INFO 9684 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-16 16:49:57,262 INFO 9684 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-16 16:49:57,262 INFO 9684 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-16 16:55:24,620 INFO 4448 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-16 16:55:24,620 INFO 4448 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-16 16:55:24,621 INFO 4448 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-17 13:19:42,774 INFO 25268 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-17 13:19:42,774 INFO 25268 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-17 13:19:42,774 INFO 25268 [egg-schedule]: register schedule E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-17 13:19:43,406 INFO 12032 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 54616597ms at 2022-03-18 04:30:00.003
+2022-03-17 13:19:43,406 INFO 12032 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 38416594ms at 2022-03-18 00:00:00.000
+2022-03-17 13:19:43,407 INFO 12032 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 38417593ms at 2022-03-18 00:00:01.000
+2022-03-17 23:59:59,989 INFO 12032 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86400014ms at 2022-03-19 00:00:00.003
+2022-03-17 23:59:59,988 INFO 25268 [Job#16475327999851402643070326001] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2022-03-17 23:59:59,995 INFO 25268 [Job#16475327999851402643070326001] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 6ms. 
+2022-03-18 00:00:00,985 INFO 25268 [Job#16475328009851402653062354001] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2022-03-18 00:00:00,997 INFO 25268 [Job#16475328009851402653062354001] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 11ms. 
+2022-03-18 00:00:00,986 INFO 12032 [Timer] E:\project\mrs-app-code-creator\admin\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400015ms at 2022-03-19 00:00:01.001

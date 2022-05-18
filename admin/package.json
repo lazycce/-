@@ -1,0 +1,30 @@
+{
+  "name": "egg",
+  "version": "1.0.0",
+  "description": "egg demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "egg-bin completion",
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --port=7001 --daemon --title=egg-server-showcase",
+    "stop": "egg-scripts stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.33.1",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.15.2",
+    "egg-view-nunjucks": "^2.3.0",
+    "ejs": "^3.1.6",
+    "jszip": "^3.9.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4"
+  },
+  "files": [
+    "app",
+    "config"
+  ]
+}

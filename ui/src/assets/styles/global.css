@@ -1,0 +1,16 @@
+.app-container {
+    width: 1400px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 2px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
+}
+
+.app-title {
+    margin-bottom: 16px;
+}
+
+body {
+    background: #F6F6F6;
+}

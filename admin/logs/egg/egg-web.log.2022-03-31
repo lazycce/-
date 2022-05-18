@@ -1,0 +1,910 @@
+2022-03-18 00:00:01,000 INFO 25268 [egg-logrotator] app logger reload: got log-reload message
+2022-03-18 04:29:59,991 INFO 25268 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\proaim\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg"
+2022-03-18 04:29:59,997 INFO 25268 [-/127.0.0.1/-/7ms SCHEDULE /__schedule?path=E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-03-18 13:10:30,602 WARN 25268 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-18 13:10:30,723 WARN 25268 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-30 15:07:37,582 INFO 11868 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 15:07:37,702 INFO 11868 [egg-multipart] stream mode enable
+2022-03-30 15:07:37,706 INFO 11868 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 15:07:38,451 INFO 11868 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 15:07:38,460 INFO 11868 [egg-security] use methodnoallow middleware
+2022-03-30 15:07:38,470 INFO 11868 [egg-security] use noopen middleware
+2022-03-30 15:07:38,478 INFO 11868 [egg-security] use nosniff middleware
+2022-03-30 15:07:38,483 INFO 11868 [egg-security] use xssProtection middleware
+2022-03-30 15:07:38,486 INFO 11868 [egg-security] use xframe middleware
+2022-03-30 15:07:38,488 INFO 11868 [egg-security] use dta middleware
+2022-03-30 15:07:38,488 INFO 11868 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 15:07:38,548 INFO 11868 [egg:core] dump config after load, 24ms
+2022-03-30 15:07:38,588 INFO 11868 [egg-watcher:application] watcher start success
+2022-03-30 15:07:38,763 INFO 11868 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 07:07:38 GMT+0800 (中国标准时间)
+2022-03-30 15:07:38,785 INFO 11868 [egg:core] dump config after ready, 19ms
+2022-03-30 15:32:07,534 INFO 15232 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 15:32:07,594 INFO 15232 [egg-multipart] stream mode enable
+2022-03-30 15:32:07,596 INFO 15232 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 15:32:08,281 INFO 15232 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 15:32:08,289 INFO 15232 [egg-security] use methodnoallow middleware
+2022-03-30 15:32:08,291 INFO 15232 [egg-security] use noopen middleware
+2022-03-30 15:32:08,295 INFO 15232 [egg-security] use nosniff middleware
+2022-03-30 15:32:08,297 INFO 15232 [egg-security] use xssProtection middleware
+2022-03-30 15:32:08,299 INFO 15232 [egg-security] use xframe middleware
+2022-03-30 15:32:08,301 INFO 15232 [egg-security] use dta middleware
+2022-03-30 15:32:08,301 INFO 15232 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 15:32:08,342 INFO 15232 [egg:core] dump config after load, 11ms
+2022-03-30 15:32:08,371 INFO 15232 [egg-watcher:application] watcher start success
+2022-03-30 15:32:08,513 INFO 15232 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 07:32:08 GMT+0800 (中国标准时间)
+2022-03-30 15:32:08,528 INFO 15232 [egg:core] dump config after ready, 13ms
+2022-03-30 15:41:20,621 INFO 1692 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 15:41:20,695 INFO 1692 [egg-multipart] stream mode enable
+2022-03-30 15:41:20,698 INFO 1692 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 15:41:21,235 INFO 1692 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 15:41:21,242 INFO 1692 [egg-security] use methodnoallow middleware
+2022-03-30 15:41:21,244 INFO 1692 [egg-security] use noopen middleware
+2022-03-30 15:41:21,247 INFO 1692 [egg-security] use nosniff middleware
+2022-03-30 15:41:21,248 INFO 1692 [egg-security] use xssProtection middleware
+2022-03-30 15:41:21,249 INFO 1692 [egg-security] use xframe middleware
+2022-03-30 15:41:21,250 INFO 1692 [egg-security] use dta middleware
+2022-03-30 15:41:21,250 INFO 1692 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 15:41:21,281 INFO 1692 [egg:core] dump config after load, 10ms
+2022-03-30 15:41:21,301 INFO 1692 [egg-watcher:application] watcher start success
+2022-03-30 15:41:21,437 INFO 1692 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 07:41:21 GMT+0800 (中国标准时间)
+2022-03-30 15:41:21,447 INFO 1692 [egg:core] dump config after ready, 7ms
+2022-03-30 15:41:31,475 INFO 2304 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 15:41:31,552 INFO 2304 [egg-multipart] stream mode enable
+2022-03-30 15:41:31,556 INFO 2304 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 15:41:31,992 INFO 2304 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 15:41:31,996 INFO 2304 [egg-security] use methodnoallow middleware
+2022-03-30 15:41:31,998 INFO 2304 [egg-security] use noopen middleware
+2022-03-30 15:41:32,000 INFO 2304 [egg-security] use nosniff middleware
+2022-03-30 15:41:32,002 INFO 2304 [egg-security] use xssProtection middleware
+2022-03-30 15:41:32,003 INFO 2304 [egg-security] use xframe middleware
+2022-03-30 15:41:32,004 INFO 2304 [egg-security] use dta middleware
+2022-03-30 15:41:32,005 INFO 2304 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 15:41:32,026 INFO 2304 [egg:core] dump config after load, 6ms
+2022-03-30 15:41:32,041 INFO 2304 [egg-watcher:application] watcher start success
+2022-03-30 15:41:32,206 INFO 2304 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 07:41:31 GMT+0800 (中国标准时间)
+2022-03-30 15:41:32,214 INFO 2304 [egg:core] dump config after ready, 7ms
+2022-03-30 16:09:38,008 ERROR 2304 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'dictName' in 'field list'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: UPDATE `gen_project_config` SET `id` = 92, `project_id` = 5, `key` = 'id', `name` = 'ID', `type` = 'date', `html_type` = NULL, `is_deleted` = '0', `sort` = '1', `is_insert` = '1', `is_edit` = '1', `is_list` = '1', `is_query` = '1', `is_more_query` = '1', `dictName` = '' WHERE `id` = 92
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'dictName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `gen_project_config` SET `id` = 92, `project_id` = 5, `key` = 'id', `name` = 'ID', `type` = 'date', `html_type` = NULL, `is_deleted` = '0', `sort` = '1', `is_insert` = '1', `is_edit` = '1', `is_list` = '1', `is_query` = '1', `is_more_query` = '1', `dictName` = '' WHERE `id` = 92"
+name: "unhandledRejectionError"
+pid: 2304
+hostname: DESKTOP-IKGNHEN
+
+2022-03-30 16:09:38,015 ERROR 2304 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'dictName' in 'field list'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: UPDATE `gen_project_config` SET `id` = 86, `project_id` = 5, `key` = 'plantName', `name` = '装置', `type` = 'datetime', `html_type` = NULL, `is_deleted` = '0', `sort` = 2, `is_insert` = '1', `is_edit` = '0', `is_list` = '1', `is_query` = '1', `is_more_query` = '0', `dictName` = '1' WHERE `id` = 86
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'dictName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `gen_project_config` SET `id` = 86, `project_id` = 5, `key` = 'plantName', `name` = '装置', `type` = 'datetime', `html_type` = NULL, `is_deleted` = '0', `sort` = 2, `is_insert` = '1', `is_edit` = '0', `is_list` = '1', `is_query` = '1', `is_more_query` = '0', `dictName` = '1' WHERE `id` = 86"
+name: "unhandledRejectionError"
+pid: 2304
+hostname: DESKTOP-IKGNHEN
+
+2022-03-30 16:13:13,908 ERROR 2304 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'dictName' in 'field list'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: UPDATE `gen_project_config` SET `id` = 70, `project_id` = 5, `key` = 'serialNumber', `name` = '设备编码', `type` = 'singleSelect', `html_type` = NULL, `is_deleted` = '0', `sort` = 3, `is_insert` = '0', `is_edit` = '1', `is_list` = '0', `is_query` = '0', `is_more_query` = '1', `dictName` = '' WHERE `id` = 70
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'dictName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `gen_project_config` SET `id` = 70, `project_id` = 5, `key` = 'serialNumber', `name` = '设备编码', `type` = 'singleSelect', `html_type` = NULL, `is_deleted` = '0', `sort` = 3, `is_insert` = '0', `is_edit` = '1', `is_list` = '0', `is_query` = '0', `is_more_query` = '1', `dictName` = '' WHERE `id` = 70"
+name: "unhandledRejectionError"
+pid: 2304
+hostname: DESKTOP-IKGNHEN
+
+2022-03-30 16:32:50,514 INFO 1836 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:32:50,561 INFO 1836 [egg-multipart] stream mode enable
+2022-03-30 16:32:50,563 INFO 1836 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:32:50,962 INFO 1836 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:32:50,965 INFO 1836 [egg-security] use methodnoallow middleware
+2022-03-30 16:32:50,967 INFO 1836 [egg-security] use noopen middleware
+2022-03-30 16:32:50,969 INFO 1836 [egg-security] use nosniff middleware
+2022-03-30 16:32:50,970 INFO 1836 [egg-security] use xssProtection middleware
+2022-03-30 16:32:50,971 INFO 1836 [egg-security] use xframe middleware
+2022-03-30 16:32:50,972 INFO 1836 [egg-security] use dta middleware
+2022-03-30 16:32:50,972 INFO 1836 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:32:50,993 INFO 1836 [egg:core] dump config after load, 6ms
+2022-03-30 16:32:51,006 INFO 1836 [egg-watcher:application] watcher start success
+2022-03-30 16:32:51,158 INFO 1836 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:32:50 GMT+0800 (中国标准时间)
+2022-03-30 16:32:51,176 INFO 1836 [egg:core] dump config after ready, 12ms
+2022-03-30 16:34:21,907 INFO 9448 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:34:21,953 INFO 9448 [egg-multipart] stream mode enable
+2022-03-30 16:34:21,955 INFO 9448 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:34:22,328 INFO 9448 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:34:22,339 INFO 9448 [egg-security] use methodnoallow middleware
+2022-03-30 16:34:22,341 INFO 9448 [egg-security] use noopen middleware
+2022-03-30 16:34:22,345 INFO 9448 [egg-security] use nosniff middleware
+2022-03-30 16:34:22,346 INFO 9448 [egg-security] use xssProtection middleware
+2022-03-30 16:34:22,348 INFO 9448 [egg-security] use xframe middleware
+2022-03-30 16:34:22,350 INFO 9448 [egg-security] use dta middleware
+2022-03-30 16:34:22,350 INFO 9448 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:34:22,372 INFO 9448 [egg:core] dump config after load, 7ms
+2022-03-30 16:34:22,391 INFO 9448 [egg-watcher:application] watcher start success
+2022-03-30 16:34:22,517 INFO 9448 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:34:22 GMT+0800 (中国标准时间)
+2022-03-30 16:34:22,529 INFO 9448 [egg:core] dump config after ready, 10ms
+2022-03-30 16:34:27,264 INFO 13940 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:34:27,307 INFO 13940 [egg-multipart] stream mode enable
+2022-03-30 16:34:27,309 INFO 13940 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:34:27,751 INFO 13940 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:34:27,756 INFO 13940 [egg-security] use methodnoallow middleware
+2022-03-30 16:34:27,758 INFO 13940 [egg-security] use noopen middleware
+2022-03-30 16:34:27,760 INFO 13940 [egg-security] use nosniff middleware
+2022-03-30 16:34:27,762 INFO 13940 [egg-security] use xssProtection middleware
+2022-03-30 16:34:27,763 INFO 13940 [egg-security] use xframe middleware
+2022-03-30 16:34:27,765 INFO 13940 [egg-security] use dta middleware
+2022-03-30 16:34:27,766 INFO 13940 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:34:27,790 INFO 13940 [egg:core] dump config after load, 7ms
+2022-03-30 16:34:27,807 INFO 13940 [egg-watcher:application] watcher start success
+2022-03-30 16:34:27,966 INFO 13940 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:34:27 GMT+0800 (中国标准时间)
+2022-03-30 16:34:27,981 INFO 13940 [egg:core] dump config after ready, 12ms
+2022-03-30 16:35:33,695 INFO 6948 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:35:33,760 INFO 6948 [egg-multipart] stream mode enable
+2022-03-30 16:35:33,762 INFO 6948 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:35:34,201 INFO 6948 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:35:34,206 INFO 6948 [egg-security] use methodnoallow middleware
+2022-03-30 16:35:34,211 INFO 6948 [egg-security] use noopen middleware
+2022-03-30 16:35:34,214 INFO 6948 [egg-security] use nosniff middleware
+2022-03-30 16:35:34,215 INFO 6948 [egg-security] use xssProtection middleware
+2022-03-30 16:35:34,217 INFO 6948 [egg-security] use xframe middleware
+2022-03-30 16:35:34,218 INFO 6948 [egg-security] use dta middleware
+2022-03-30 16:35:34,218 INFO 6948 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:35:34,251 INFO 6948 [egg:core] dump config after load, 12ms
+2022-03-30 16:35:34,281 INFO 6948 [egg-watcher:application] watcher start success
+2022-03-30 16:35:34,472 INFO 6948 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:35:34 GMT+0800 (中国标准时间)
+2022-03-30 16:35:34,494 INFO 6948 [egg:core] dump config after ready, 16ms
+2022-03-30 16:35:52,945 INFO 2064 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:35:52,995 INFO 2064 [egg-multipart] stream mode enable
+2022-03-30 16:35:52,997 INFO 2064 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:35:53,441 INFO 2064 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:35:53,446 INFO 2064 [egg-security] use methodnoallow middleware
+2022-03-30 16:35:53,447 INFO 2064 [egg-security] use noopen middleware
+2022-03-30 16:35:53,450 INFO 2064 [egg-security] use nosniff middleware
+2022-03-30 16:35:53,451 INFO 2064 [egg-security] use xssProtection middleware
+2022-03-30 16:35:53,452 INFO 2064 [egg-security] use xframe middleware
+2022-03-30 16:35:53,456 INFO 2064 [egg-security] use dta middleware
+2022-03-30 16:35:53,456 INFO 2064 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:35:53,489 INFO 2064 [egg:core] dump config after load, 10ms
+2022-03-30 16:35:53,512 INFO 2064 [egg-watcher:application] watcher start success
+2022-03-30 16:35:53,648 INFO 2064 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:35:53 GMT+0800 (中国标准时间)
+2022-03-30 16:35:53,664 INFO 2064 [egg:core] dump config after ready, 14ms
+2022-03-30 16:36:25,040 INFO 708 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:36:25,095 INFO 708 [egg-multipart] stream mode enable
+2022-03-30 16:36:25,097 INFO 708 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:36:25,536 INFO 708 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:36:25,542 INFO 708 [egg-security] use methodnoallow middleware
+2022-03-30 16:36:25,544 INFO 708 [egg-security] use noopen middleware
+2022-03-30 16:36:25,546 INFO 708 [egg-security] use nosniff middleware
+2022-03-30 16:36:25,548 INFO 708 [egg-security] use xssProtection middleware
+2022-03-30 16:36:25,549 INFO 708 [egg-security] use xframe middleware
+2022-03-30 16:36:25,552 INFO 708 [egg-security] use dta middleware
+2022-03-30 16:36:25,552 INFO 708 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:36:25,576 INFO 708 [egg:core] dump config after load, 8ms
+2022-03-30 16:36:25,593 INFO 708 [egg-watcher:application] watcher start success
+2022-03-30 16:36:25,748 INFO 708 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:36:25 GMT+0800 (中国标准时间)
+2022-03-30 16:36:25,763 INFO 708 [egg:core] dump config after ready, 10ms
+2022-03-30 16:36:37,651 INFO 2972 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:36:37,695 INFO 2972 [egg-multipart] stream mode enable
+2022-03-30 16:36:37,696 INFO 2972 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:36:38,084 INFO 2972 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:36:38,088 INFO 2972 [egg-security] use methodnoallow middleware
+2022-03-30 16:36:38,090 INFO 2972 [egg-security] use noopen middleware
+2022-03-30 16:36:38,092 INFO 2972 [egg-security] use nosniff middleware
+2022-03-30 16:36:38,093 INFO 2972 [egg-security] use xssProtection middleware
+2022-03-30 16:36:38,094 INFO 2972 [egg-security] use xframe middleware
+2022-03-30 16:36:38,095 INFO 2972 [egg-security] use dta middleware
+2022-03-30 16:36:38,095 INFO 2972 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:36:38,116 INFO 2972 [egg:core] dump config after load, 6ms
+2022-03-30 16:36:38,130 INFO 2972 [egg-watcher:application] watcher start success
+2022-03-30 16:36:38,273 INFO 2972 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:36:37 GMT+0800 (中国标准时间)
+2022-03-30 16:36:38,282 INFO 2972 [egg:core] dump config after ready, 8ms
+2022-03-30 16:44:09,858 INFO 19268 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:44:09,904 INFO 19268 [egg-multipart] stream mode enable
+2022-03-30 16:44:09,906 INFO 19268 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:44:10,304 INFO 19268 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:44:10,313 INFO 19268 [egg-security] use methodnoallow middleware
+2022-03-30 16:44:10,315 INFO 19268 [egg-security] use noopen middleware
+2022-03-30 16:44:10,319 INFO 19268 [egg-security] use nosniff middleware
+2022-03-30 16:44:10,320 INFO 19268 [egg-security] use xssProtection middleware
+2022-03-30 16:44:10,324 INFO 19268 [egg-security] use xframe middleware
+2022-03-30 16:44:10,328 INFO 19268 [egg-security] use dta middleware
+2022-03-30 16:44:10,328 INFO 19268 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:44:10,362 INFO 19268 [egg:core] dump config after load, 11ms
+2022-03-30 16:44:10,393 INFO 19268 [egg-watcher:application] watcher start success
+2022-03-30 16:44:10,562 INFO 19268 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:44:10 GMT+0800 (中国标准时间)
+2022-03-30 16:44:10,586 INFO 19268 [egg:core] dump config after ready, 18ms
+2022-03-30 16:44:24,968 INFO 1708 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:44:25,020 INFO 1708 [egg-multipart] stream mode enable
+2022-03-30 16:44:25,021 INFO 1708 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:44:25,364 INFO 1708 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:44:25,369 INFO 1708 [egg-security] use methodnoallow middleware
+2022-03-30 16:44:25,371 INFO 1708 [egg-security] use noopen middleware
+2022-03-30 16:44:25,373 INFO 1708 [egg-security] use nosniff middleware
+2022-03-30 16:44:25,374 INFO 1708 [egg-security] use xssProtection middleware
+2022-03-30 16:44:25,375 INFO 1708 [egg-security] use xframe middleware
+2022-03-30 16:44:25,376 INFO 1708 [egg-security] use dta middleware
+2022-03-30 16:44:25,376 INFO 1708 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:44:25,400 INFO 1708 [egg:core] dump config after load, 8ms
+2022-03-30 16:44:25,422 INFO 1708 [egg-watcher:application] watcher start success
+2022-03-30 16:44:25,606 INFO 1708 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:44:25 GMT+0800 (中国标准时间)
+2022-03-30 16:44:25,616 INFO 1708 [egg:core] dump config after ready, 8ms
+2022-03-30 16:45:01,863 INFO 15872 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:45:01,920 INFO 15872 [egg-multipart] stream mode enable
+2022-03-30 16:45:01,921 INFO 15872 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:45:02,274 INFO 15872 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:45:02,279 INFO 15872 [egg-security] use methodnoallow middleware
+2022-03-30 16:45:02,281 INFO 15872 [egg-security] use noopen middleware
+2022-03-30 16:45:02,284 INFO 15872 [egg-security] use nosniff middleware
+2022-03-30 16:45:02,285 INFO 15872 [egg-security] use xssProtection middleware
+2022-03-30 16:45:02,286 INFO 15872 [egg-security] use xframe middleware
+2022-03-30 16:45:02,287 INFO 15872 [egg-security] use dta middleware
+2022-03-30 16:45:02,287 INFO 15872 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:45:02,305 INFO 15872 [egg:core] dump config after load, 5ms
+2022-03-30 16:45:02,319 INFO 15872 [egg-watcher:application] watcher start success
+2022-03-30 16:45:02,482 INFO 15872 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:45:02 GMT+0800 (中国标准时间)
+2022-03-30 16:45:02,501 INFO 15872 [egg:core] dump config after ready, 12ms
+2022-03-30 16:46:33,771 WARN 15872 A client (::ffff:127.0.0.1:52072) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2022-03-30 16:48:04,801 INFO 20444 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:48:04,843 INFO 20444 [egg-multipart] stream mode enable
+2022-03-30 16:48:04,844 INFO 20444 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:48:05,278 INFO 20444 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:48:05,286 INFO 20444 [egg-security] use methodnoallow middleware
+2022-03-30 16:48:05,288 INFO 20444 [egg-security] use noopen middleware
+2022-03-30 16:48:05,293 INFO 20444 [egg-security] use nosniff middleware
+2022-03-30 16:48:05,294 INFO 20444 [egg-security] use xssProtection middleware
+2022-03-30 16:48:05,297 INFO 20444 [egg-security] use xframe middleware
+2022-03-30 16:48:05,304 INFO 20444 [egg-security] use dta middleware
+2022-03-30 16:48:05,304 INFO 20444 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:48:05,335 INFO 20444 [egg:core] dump config after load, 9ms
+2022-03-30 16:48:05,357 INFO 20444 [egg-watcher:application] watcher start success
+2022-03-30 16:48:05,507 INFO 20444 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:48:05 GMT+0800 (中国标准时间)
+2022-03-30 16:48:05,540 INFO 20444 [egg:core] dump config after ready, 23ms
+2022-03-30 16:48:58,233 WARN 20444 A client (::ffff:127.0.0.1:52425) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2022-03-30 16:48:58,235 WARN 20444 A client (::ffff:127.0.0.1:52425) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2022-03-30 16:49:25,980 INFO 6596 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:49:26,039 INFO 6596 [egg-multipart] stream mode enable
+2022-03-30 16:49:26,042 INFO 6596 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:49:26,497 INFO 6596 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:49:26,502 INFO 6596 [egg-security] use methodnoallow middleware
+2022-03-30 16:49:26,503 INFO 6596 [egg-security] use noopen middleware
+2022-03-30 16:49:26,509 INFO 6596 [egg-security] use nosniff middleware
+2022-03-30 16:49:26,511 INFO 6596 [egg-security] use xssProtection middleware
+2022-03-30 16:49:26,513 INFO 6596 [egg-security] use xframe middleware
+2022-03-30 16:49:26,515 INFO 6596 [egg-security] use dta middleware
+2022-03-30 16:49:26,515 INFO 6596 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:49:26,541 INFO 6596 [egg:core] dump config after load, 7ms
+2022-03-30 16:49:26,561 INFO 6596 [egg-watcher:application] watcher start success
+2022-03-30 16:49:26,718 INFO 6596 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:49:26 GMT+0800 (中国标准时间)
+2022-03-30 16:49:26,733 INFO 6596 [egg:core] dump config after ready, 9ms
+2022-03-30 16:50:05,120 INFO 9272 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:50:05,163 INFO 9272 [egg-multipart] stream mode enable
+2022-03-30 16:50:05,165 INFO 9272 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:50:05,505 INFO 9272 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:50:05,509 INFO 9272 [egg-security] use methodnoallow middleware
+2022-03-30 16:50:05,510 INFO 9272 [egg-security] use noopen middleware
+2022-03-30 16:50:05,513 INFO 9272 [egg-security] use nosniff middleware
+2022-03-30 16:50:05,514 INFO 9272 [egg-security] use xssProtection middleware
+2022-03-30 16:50:05,515 INFO 9272 [egg-security] use xframe middleware
+2022-03-30 16:50:05,516 INFO 9272 [egg-security] use dta middleware
+2022-03-30 16:50:05,516 INFO 9272 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:50:05,535 INFO 9272 [egg:core] dump config after load, 6ms
+2022-03-30 16:50:05,553 INFO 9272 [egg-watcher:application] watcher start success
+2022-03-30 16:50:05,776 INFO 9272 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:50:05 GMT+0800 (中国标准时间)
+2022-03-30 16:50:05,787 INFO 9272 [egg:core] dump config after ready, 10ms
+2022-03-30 16:50:34,126 INFO 15064 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:50:34,203 INFO 15064 [egg-multipart] stream mode enable
+2022-03-30 16:50:34,205 INFO 15064 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:50:34,553 INFO 15064 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:50:34,556 INFO 15064 [egg-security] use methodnoallow middleware
+2022-03-30 16:50:34,558 INFO 15064 [egg-security] use noopen middleware
+2022-03-30 16:50:34,560 INFO 15064 [egg-security] use nosniff middleware
+2022-03-30 16:50:34,561 INFO 15064 [egg-security] use xssProtection middleware
+2022-03-30 16:50:34,562 INFO 15064 [egg-security] use xframe middleware
+2022-03-30 16:50:34,563 INFO 15064 [egg-security] use dta middleware
+2022-03-30 16:50:34,563 INFO 15064 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:50:34,581 INFO 15064 [egg:core] dump config after load, 5ms
+2022-03-30 16:50:34,596 INFO 15064 [egg-watcher:application] watcher start success
+2022-03-30 16:50:34,765 INFO 15064 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:50:34 GMT+0800 (中国标准时间)
+2022-03-30 16:50:34,783 INFO 15064 [egg:core] dump config after ready, 14ms
+2022-03-30 16:50:46,798 INFO 10040 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:50:46,840 INFO 10040 [egg-multipart] stream mode enable
+2022-03-30 16:50:46,842 INFO 10040 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:50:47,161 INFO 10040 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:50:47,165 INFO 10040 [egg-security] use methodnoallow middleware
+2022-03-30 16:50:47,167 INFO 10040 [egg-security] use noopen middleware
+2022-03-30 16:50:47,169 INFO 10040 [egg-security] use nosniff middleware
+2022-03-30 16:50:47,170 INFO 10040 [egg-security] use xssProtection middleware
+2022-03-30 16:50:47,171 INFO 10040 [egg-security] use xframe middleware
+2022-03-30 16:50:47,172 INFO 10040 [egg-security] use dta middleware
+2022-03-30 16:50:47,172 INFO 10040 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:50:47,195 INFO 10040 [egg:core] dump config after load, 6ms
+2022-03-30 16:50:47,209 INFO 10040 [egg-watcher:application] watcher start success
+2022-03-30 16:50:47,371 INFO 10040 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:50:47 GMT+0800 (中国标准时间)
+2022-03-30 16:50:47,386 INFO 10040 [egg:core] dump config after ready, 13ms
+2022-03-30 16:52:24,658 INFO 14696 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:52:24,715 INFO 14696 [egg-multipart] stream mode enable
+2022-03-30 16:52:24,718 INFO 14696 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:52:25,086 INFO 14696 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:52:25,090 INFO 14696 [egg-security] use methodnoallow middleware
+2022-03-30 16:52:25,091 INFO 14696 [egg-security] use noopen middleware
+2022-03-30 16:52:25,094 INFO 14696 [egg-security] use nosniff middleware
+2022-03-30 16:52:25,095 INFO 14696 [egg-security] use xssProtection middleware
+2022-03-30 16:52:25,096 INFO 14696 [egg-security] use xframe middleware
+2022-03-30 16:52:25,097 INFO 14696 [egg-security] use dta middleware
+2022-03-30 16:52:25,097 INFO 14696 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:52:25,117 INFO 14696 [egg:core] dump config after load, 7ms
+2022-03-30 16:52:25,135 INFO 14696 [egg-watcher:application] watcher start success
+2022-03-30 16:52:25,307 INFO 14696 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:52:24 GMT+0800 (中国标准时间)
+2022-03-30 16:52:25,316 INFO 14696 [egg:core] dump config after ready, 7ms
+2022-03-30 16:53:35,936 INFO 8292 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:53:35,985 INFO 8292 [egg-multipart] stream mode enable
+2022-03-30 16:53:35,988 INFO 8292 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:53:36,400 INFO 8292 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:53:36,404 INFO 8292 [egg-security] use methodnoallow middleware
+2022-03-30 16:53:36,406 INFO 8292 [egg-security] use noopen middleware
+2022-03-30 16:53:36,409 INFO 8292 [egg-security] use nosniff middleware
+2022-03-30 16:53:36,410 INFO 8292 [egg-security] use xssProtection middleware
+2022-03-30 16:53:36,411 INFO 8292 [egg-security] use xframe middleware
+2022-03-30 16:53:36,412 INFO 8292 [egg-security] use dta middleware
+2022-03-30 16:53:36,412 INFO 8292 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:53:36,432 INFO 8292 [egg:core] dump config after load, 6ms
+2022-03-30 16:53:36,446 INFO 8292 [egg-watcher:application] watcher start success
+2022-03-30 16:53:36,608 INFO 8292 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:53:36 GMT+0800 (中国标准时间)
+2022-03-30 16:53:36,616 INFO 8292 [egg:core] dump config after ready, 6ms
+2022-03-30 16:54:18,749 INFO 9504 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:54:18,794 INFO 9504 [egg-multipart] stream mode enable
+2022-03-30 16:54:18,796 INFO 9504 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:54:19,114 INFO 9504 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:54:19,118 INFO 9504 [egg-security] use methodnoallow middleware
+2022-03-30 16:54:19,120 INFO 9504 [egg-security] use noopen middleware
+2022-03-30 16:54:19,122 INFO 9504 [egg-security] use nosniff middleware
+2022-03-30 16:54:19,123 INFO 9504 [egg-security] use xssProtection middleware
+2022-03-30 16:54:19,124 INFO 9504 [egg-security] use xframe middleware
+2022-03-30 16:54:19,125 INFO 9504 [egg-security] use dta middleware
+2022-03-30 16:54:19,125 INFO 9504 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:54:19,144 INFO 9504 [egg:core] dump config after load, 5ms
+2022-03-30 16:54:19,159 INFO 9504 [egg-watcher:application] watcher start success
+2022-03-30 16:54:19,299 INFO 9504 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:54:18 GMT+0800 (中国标准时间)
+2022-03-30 16:54:19,309 INFO 9504 [egg:core] dump config after ready, 9ms
+2022-03-30 16:54:40,470 INFO 7512 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 16:54:40,533 INFO 7512 [egg-multipart] stream mode enable
+2022-03-30 16:54:40,535 INFO 7512 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 16:54:40,926 INFO 7512 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 16:54:40,931 INFO 7512 [egg-security] use methodnoallow middleware
+2022-03-30 16:54:40,933 INFO 7512 [egg-security] use noopen middleware
+2022-03-30 16:54:40,935 INFO 7512 [egg-security] use nosniff middleware
+2022-03-30 16:54:40,936 INFO 7512 [egg-security] use xssProtection middleware
+2022-03-30 16:54:40,937 INFO 7512 [egg-security] use xframe middleware
+2022-03-30 16:54:40,938 INFO 7512 [egg-security] use dta middleware
+2022-03-30 16:54:40,938 INFO 7512 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 16:54:40,959 INFO 7512 [egg:core] dump config after load, 5ms
+2022-03-30 16:54:40,976 INFO 7512 [egg-watcher:application] watcher start success
+2022-03-30 16:54:41,145 INFO 7512 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 08:54:40 GMT+0800 (中国标准时间)
+2022-03-30 16:54:41,159 INFO 7512 [egg:core] dump config after ready, 11ms
+2022-03-30 17:00:20,059 INFO 19796 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 17:00:20,117 INFO 19796 [egg-multipart] stream mode enable
+2022-03-30 17:00:20,132 INFO 19796 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 17:00:20,591 INFO 19796 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 17:00:20,596 INFO 19796 [egg-security] use methodnoallow middleware
+2022-03-30 17:00:20,597 INFO 19796 [egg-security] use noopen middleware
+2022-03-30 17:00:20,600 INFO 19796 [egg-security] use nosniff middleware
+2022-03-30 17:00:20,601 INFO 19796 [egg-security] use xssProtection middleware
+2022-03-30 17:00:20,603 INFO 19796 [egg-security] use xframe middleware
+2022-03-30 17:00:20,605 INFO 19796 [egg-security] use dta middleware
+2022-03-30 17:00:20,605 INFO 19796 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 17:00:20,629 INFO 19796 [egg:core] dump config after load, 9ms
+2022-03-30 17:00:20,656 INFO 19796 [egg-watcher:application] watcher start success
+2022-03-30 17:00:20,823 INFO 19796 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 09:00:20 GMT+0800 (中国标准时间)
+2022-03-30 17:00:20,832 INFO 19796 [egg:core] dump config after ready, 6ms
+2022-03-30 17:01:08,192 INFO 16088 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 17:01:08,254 INFO 16088 [egg-multipart] stream mode enable
+2022-03-30 17:01:08,257 INFO 16088 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 17:01:08,636 INFO 16088 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 17:01:08,640 INFO 16088 [egg-security] use methodnoallow middleware
+2022-03-30 17:01:08,641 INFO 16088 [egg-security] use noopen middleware
+2022-03-30 17:01:08,644 INFO 16088 [egg-security] use nosniff middleware
+2022-03-30 17:01:08,645 INFO 16088 [egg-security] use xssProtection middleware
+2022-03-30 17:01:08,646 INFO 16088 [egg-security] use xframe middleware
+2022-03-30 17:01:08,647 INFO 16088 [egg-security] use dta middleware
+2022-03-30 17:01:08,647 INFO 16088 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 17:01:08,667 INFO 16088 [egg:core] dump config after load, 7ms
+2022-03-30 17:01:08,681 INFO 16088 [egg-watcher:application] watcher start success
+2022-03-30 17:01:08,883 INFO 16088 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 09:01:08 GMT+0800 (中国标准时间)
+2022-03-30 17:01:08,891 INFO 16088 [egg:core] dump config after ready, 6ms
+2022-03-30 17:01:29,260 INFO 17780 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-30 17:01:29,327 INFO 17780 [egg-multipart] stream mode enable
+2022-03-30 17:01:29,331 INFO 17780 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-30 17:01:29,722 INFO 17780 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-30 17:01:29,726 INFO 17780 [egg-security] use methodnoallow middleware
+2022-03-30 17:01:29,729 INFO 17780 [egg-security] use noopen middleware
+2022-03-30 17:01:29,732 INFO 17780 [egg-security] use nosniff middleware
+2022-03-30 17:01:29,734 INFO 17780 [egg-security] use xssProtection middleware
+2022-03-30 17:01:29,735 INFO 17780 [egg-security] use xframe middleware
+2022-03-30 17:01:29,736 INFO 17780 [egg-security] use dta middleware
+2022-03-30 17:01:29,736 INFO 17780 [egg-security] compose 6 middlewares into one security middleware
+2022-03-30 17:01:29,758 INFO 17780 [egg:core] dump config after load, 5ms
+2022-03-30 17:01:29,774 INFO 17780 [egg-watcher:application] watcher start success
+2022-03-30 17:01:29,945 INFO 17780 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 30 2022 09:01:29 GMT+0800 (中国标准时间)
+2022-03-30 17:01:29,969 INFO 17780 [egg:core] dump config after ready, 15ms
+2022-03-31 10:52:43,161 INFO 1280 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 10:52:43,218 INFO 1280 [egg-multipart] stream mode enable
+2022-03-31 10:52:43,221 INFO 1280 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 10:52:43,667 INFO 1280 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 10:52:43,673 INFO 1280 [egg-security] use methodnoallow middleware
+2022-03-31 10:52:43,675 INFO 1280 [egg-security] use noopen middleware
+2022-03-31 10:52:43,678 INFO 1280 [egg-security] use nosniff middleware
+2022-03-31 10:52:43,680 INFO 1280 [egg-security] use xssProtection middleware
+2022-03-31 10:52:43,681 INFO 1280 [egg-security] use xframe middleware
+2022-03-31 10:52:43,683 INFO 1280 [egg-security] use dta middleware
+2022-03-31 10:52:43,683 INFO 1280 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 10:52:43,718 INFO 1280 [egg:core] dump config after load, 9ms
+2022-03-31 10:52:43,747 INFO 1280 [egg-watcher:application] watcher start success
+2022-03-31 10:52:43,902 INFO 1280 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 02:52:44 GMT+0800 (中国标准时间)
+2022-03-31 10:52:43,919 INFO 1280 [egg:core] dump config after ready, 13ms
+2022-03-31 10:54:22,684 INFO 8324 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 10:54:22,738 INFO 8324 [egg-multipart] stream mode enable
+2022-03-31 10:54:22,741 INFO 8324 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 10:54:23,105 INFO 8324 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 10:54:23,109 INFO 8324 [egg-security] use methodnoallow middleware
+2022-03-31 10:54:23,110 INFO 8324 [egg-security] use noopen middleware
+2022-03-31 10:54:23,113 INFO 8324 [egg-security] use nosniff middleware
+2022-03-31 10:54:23,114 INFO 8324 [egg-security] use xssProtection middleware
+2022-03-31 10:54:23,115 INFO 8324 [egg-security] use xframe middleware
+2022-03-31 10:54:23,116 INFO 8324 [egg-security] use dta middleware
+2022-03-31 10:54:23,116 INFO 8324 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 10:54:23,138 INFO 8324 [egg:core] dump config after load, 6ms
+2022-03-31 10:54:23,153 INFO 8324 [egg-watcher:application] watcher start success
+2022-03-31 10:54:23,357 INFO 8324 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 02:54:23 GMT+0800 (中国标准时间)
+2022-03-31 10:54:23,398 INFO 8324 [egg:core] dump config after ready, 34ms
+2022-03-31 10:55:22,349 INFO 14932 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 10:55:22,418 INFO 14932 [egg-multipart] stream mode enable
+2022-03-31 10:55:22,421 INFO 14932 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 10:55:22,954 INFO 14932 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 10:55:22,963 INFO 14932 [egg-security] use methodnoallow middleware
+2022-03-31 10:55:22,966 INFO 14932 [egg-security] use noopen middleware
+2022-03-31 10:55:22,971 INFO 14932 [egg-security] use nosniff middleware
+2022-03-31 10:55:22,973 INFO 14932 [egg-security] use xssProtection middleware
+2022-03-31 10:55:22,975 INFO 14932 [egg-security] use xframe middleware
+2022-03-31 10:55:22,979 INFO 14932 [egg-security] use dta middleware
+2022-03-31 10:55:22,979 INFO 14932 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 10:55:23,037 INFO 14932 [egg:core] dump config after load, 20ms
+2022-03-31 10:55:23,076 INFO 14932 [egg-watcher:application] watcher start success
+2022-03-31 10:55:23,228 INFO 14932 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 02:55:23 GMT+0800 (中国标准时间)
+2022-03-31 10:55:23,248 INFO 14932 [egg:core] dump config after ready, 15ms
+2022-03-31 10:59:22,134 INFO 8188 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 10:59:22,180 INFO 8188 [egg-multipart] stream mode enable
+2022-03-31 10:59:22,182 INFO 8188 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 10:59:22,551 INFO 8188 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 10:59:22,555 INFO 8188 [egg-security] use methodnoallow middleware
+2022-03-31 10:59:22,557 INFO 8188 [egg-security] use noopen middleware
+2022-03-31 10:59:22,559 INFO 8188 [egg-security] use nosniff middleware
+2022-03-31 10:59:22,560 INFO 8188 [egg-security] use xssProtection middleware
+2022-03-31 10:59:22,561 INFO 8188 [egg-security] use xframe middleware
+2022-03-31 10:59:22,563 INFO 8188 [egg-security] use dta middleware
+2022-03-31 10:59:22,563 INFO 8188 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 10:59:22,587 INFO 8188 [egg:core] dump config after load, 8ms
+2022-03-31 10:59:22,605 INFO 8188 [egg-watcher:application] watcher start success
+2022-03-31 10:59:22,739 INFO 8188 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 02:59:22 GMT+0800 (中国标准时间)
+2022-03-31 10:59:22,750 INFO 8188 [egg:core] dump config after ready, 9ms
+2022-03-31 11:00:01,228 INFO 16220 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:00:01,288 INFO 16220 [egg-multipart] stream mode enable
+2022-03-31 11:00:01,292 INFO 16220 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:00:01,691 INFO 16220 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:00:01,696 INFO 16220 [egg-security] use methodnoallow middleware
+2022-03-31 11:00:01,697 INFO 16220 [egg-security] use noopen middleware
+2022-03-31 11:00:01,700 INFO 16220 [egg-security] use nosniff middleware
+2022-03-31 11:00:01,701 INFO 16220 [egg-security] use xssProtection middleware
+2022-03-31 11:00:01,702 INFO 16220 [egg-security] use xframe middleware
+2022-03-31 11:00:01,703 INFO 16220 [egg-security] use dta middleware
+2022-03-31 11:00:01,703 INFO 16220 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:00:01,727 INFO 16220 [egg:core] dump config after load, 9ms
+2022-03-31 11:00:01,745 INFO 16220 [egg-watcher:application] watcher start success
+2022-03-31 11:00:01,879 INFO 16220 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:00:02 GMT+0800 (中国标准时间)
+2022-03-31 11:00:01,891 INFO 16220 [egg:core] dump config after ready, 10ms
+2022-03-31 11:02:08,703 INFO 19264 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:02:08,750 INFO 19264 [egg-multipart] stream mode enable
+2022-03-31 11:02:08,752 INFO 19264 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:02:09,116 INFO 19264 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:02:09,121 INFO 19264 [egg-security] use methodnoallow middleware
+2022-03-31 11:02:09,122 INFO 19264 [egg-security] use noopen middleware
+2022-03-31 11:02:09,125 INFO 19264 [egg-security] use nosniff middleware
+2022-03-31 11:02:09,126 INFO 19264 [egg-security] use xssProtection middleware
+2022-03-31 11:02:09,127 INFO 19264 [egg-security] use xframe middleware
+2022-03-31 11:02:09,128 INFO 19264 [egg-security] use dta middleware
+2022-03-31 11:02:09,128 INFO 19264 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:02:09,150 INFO 19264 [egg:core] dump config after load, 7ms
+2022-03-31 11:02:09,168 INFO 19264 [egg-watcher:application] watcher start success
+2022-03-31 11:02:09,312 INFO 19264 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:02:09 GMT+0800 (中国标准时间)
+2022-03-31 11:02:09,323 INFO 19264 [egg:core] dump config after ready, 9ms
+2022-03-31 11:02:12,437 INFO 13044 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:02:12,478 INFO 13044 [egg-multipart] stream mode enable
+2022-03-31 11:02:12,479 INFO 13044 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:02:12,884 INFO 13044 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:02:12,888 INFO 13044 [egg-security] use methodnoallow middleware
+2022-03-31 11:02:12,890 INFO 13044 [egg-security] use noopen middleware
+2022-03-31 11:02:12,894 INFO 13044 [egg-security] use nosniff middleware
+2022-03-31 11:02:12,895 INFO 13044 [egg-security] use xssProtection middleware
+2022-03-31 11:02:12,896 INFO 13044 [egg-security] use xframe middleware
+2022-03-31 11:02:12,898 INFO 13044 [egg-security] use dta middleware
+2022-03-31 11:02:12,898 INFO 13044 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:02:12,929 INFO 13044 [egg:core] dump config after load, 10ms
+2022-03-31 11:02:12,950 INFO 13044 [egg-watcher:application] watcher start success
+2022-03-31 11:02:13,094 INFO 13044 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:02:13 GMT+0800 (中国标准时间)
+2022-03-31 11:02:13,105 INFO 13044 [egg:core] dump config after ready, 10ms
+2022-03-31 11:02:54,474 INFO 9912 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:02:54,524 INFO 9912 [egg-multipart] stream mode enable
+2022-03-31 11:02:54,526 INFO 9912 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:02:54,878 INFO 9912 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:02:54,882 INFO 9912 [egg-security] use methodnoallow middleware
+2022-03-31 11:02:54,884 INFO 9912 [egg-security] use noopen middleware
+2022-03-31 11:02:54,888 INFO 9912 [egg-security] use nosniff middleware
+2022-03-31 11:02:54,889 INFO 9912 [egg-security] use xssProtection middleware
+2022-03-31 11:02:54,891 INFO 9912 [egg-security] use xframe middleware
+2022-03-31 11:02:54,892 INFO 9912 [egg-security] use dta middleware
+2022-03-31 11:02:54,892 INFO 9912 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:02:54,912 INFO 9912 [egg:core] dump config after load, 6ms
+2022-03-31 11:02:54,926 INFO 9912 [egg-watcher:application] watcher start success
+2022-03-31 11:02:55,072 INFO 9912 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:02:55 GMT+0800 (中国标准时间)
+2022-03-31 11:02:55,081 INFO 9912 [egg:core] dump config after ready, 8ms
+2022-03-31 11:03:18,375 INFO 15492 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:03:18,417 INFO 15492 [egg-multipart] stream mode enable
+2022-03-31 11:03:18,419 INFO 15492 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:03:18,739 INFO 15492 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:03:18,743 INFO 15492 [egg-security] use methodnoallow middleware
+2022-03-31 11:03:18,745 INFO 15492 [egg-security] use noopen middleware
+2022-03-31 11:03:18,747 INFO 15492 [egg-security] use nosniff middleware
+2022-03-31 11:03:18,749 INFO 15492 [egg-security] use xssProtection middleware
+2022-03-31 11:03:18,750 INFO 15492 [egg-security] use xframe middleware
+2022-03-31 11:03:18,752 INFO 15492 [egg-security] use dta middleware
+2022-03-31 11:03:18,752 INFO 15492 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:03:18,775 INFO 15492 [egg:core] dump config after load, 6ms
+2022-03-31 11:03:18,791 INFO 15492 [egg-watcher:application] watcher start success
+2022-03-31 11:03:19,003 INFO 15492 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:03:19 GMT+0800 (中国标准时间)
+2022-03-31 11:03:19,024 INFO 15492 [egg:core] dump config after ready, 15ms
+2022-03-31 11:04:51,845 INFO 504 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:04:51,889 INFO 504 [egg-multipart] stream mode enable
+2022-03-31 11:04:51,891 INFO 504 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:04:52,267 INFO 504 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:04:52,273 INFO 504 [egg-security] use methodnoallow middleware
+2022-03-31 11:04:52,274 INFO 504 [egg-security] use noopen middleware
+2022-03-31 11:04:52,277 INFO 504 [egg-security] use nosniff middleware
+2022-03-31 11:04:52,278 INFO 504 [egg-security] use xssProtection middleware
+2022-03-31 11:04:52,279 INFO 504 [egg-security] use xframe middleware
+2022-03-31 11:04:52,281 INFO 504 [egg-security] use dta middleware
+2022-03-31 11:04:52,281 INFO 504 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:04:52,306 INFO 504 [egg:core] dump config after load, 7ms
+2022-03-31 11:04:52,323 INFO 504 [egg-watcher:application] watcher start success
+2022-03-31 11:04:52,493 INFO 504 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:04:52 GMT+0800 (中国标准时间)
+2022-03-31 11:04:52,504 INFO 504 [egg:core] dump config after ready, 9ms
+2022-03-31 11:06:40,848 INFO 17116 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:06:40,896 INFO 17116 [egg-multipart] stream mode enable
+2022-03-31 11:06:40,897 INFO 17116 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:06:41,395 INFO 17116 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:06:41,401 INFO 17116 [egg-security] use methodnoallow middleware
+2022-03-31 11:06:41,403 INFO 17116 [egg-security] use noopen middleware
+2022-03-31 11:06:41,408 INFO 17116 [egg-security] use nosniff middleware
+2022-03-31 11:06:41,412 INFO 17116 [egg-security] use xssProtection middleware
+2022-03-31 11:06:41,413 INFO 17116 [egg-security] use xframe middleware
+2022-03-31 11:06:41,414 INFO 17116 [egg-security] use dta middleware
+2022-03-31 11:06:41,414 INFO 17116 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:06:41,454 INFO 17116 [egg:core] dump config after load, 11ms
+2022-03-31 11:06:41,485 INFO 17116 [egg-watcher:application] watcher start success
+2022-03-31 11:06:41,678 INFO 17116 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:06:41 GMT+0800 (中国标准时间)
+2022-03-31 11:06:41,719 INFO 17116 [egg:core] dump config after ready, 33ms
+2022-03-31 11:07:03,465 INFO 17484 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:07:03,539 INFO 17484 [egg-multipart] stream mode enable
+2022-03-31 11:07:03,541 INFO 17484 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:07:03,922 INFO 17484 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:07:03,926 INFO 17484 [egg-security] use methodnoallow middleware
+2022-03-31 11:07:03,928 INFO 17484 [egg-security] use noopen middleware
+2022-03-31 11:07:03,930 INFO 17484 [egg-security] use nosniff middleware
+2022-03-31 11:07:03,932 INFO 17484 [egg-security] use xssProtection middleware
+2022-03-31 11:07:03,933 INFO 17484 [egg-security] use xframe middleware
+2022-03-31 11:07:03,934 INFO 17484 [egg-security] use dta middleware
+2022-03-31 11:07:03,934 INFO 17484 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:07:03,959 INFO 17484 [egg:core] dump config after load, 8ms
+2022-03-31 11:07:03,983 INFO 17484 [egg-watcher:application] watcher start success
+2022-03-31 11:07:04,134 INFO 17484 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:07:04 GMT+0800 (中国标准时间)
+2022-03-31 11:07:04,144 INFO 17484 [egg:core] dump config after ready, 8ms
+2022-03-31 11:07:09,715 INFO 5696 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:07:09,765 INFO 5696 [egg-multipart] stream mode enable
+2022-03-31 11:07:09,768 INFO 5696 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:07:10,138 INFO 5696 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:07:10,142 INFO 5696 [egg-security] use methodnoallow middleware
+2022-03-31 11:07:10,143 INFO 5696 [egg-security] use noopen middleware
+2022-03-31 11:07:10,146 INFO 5696 [egg-security] use nosniff middleware
+2022-03-31 11:07:10,147 INFO 5696 [egg-security] use xssProtection middleware
+2022-03-31 11:07:10,148 INFO 5696 [egg-security] use xframe middleware
+2022-03-31 11:07:10,149 INFO 5696 [egg-security] use dta middleware
+2022-03-31 11:07:10,149 INFO 5696 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:07:10,172 INFO 5696 [egg:core] dump config after load, 7ms
+2022-03-31 11:07:10,188 INFO 5696 [egg-watcher:application] watcher start success
+2022-03-31 11:07:10,322 INFO 5696 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:07:10 GMT+0800 (中国标准时间)
+2022-03-31 11:07:10,331 INFO 5696 [egg:core] dump config after ready, 8ms
+2022-03-31 11:07:52,645 INFO 13376 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:07:52,693 INFO 13376 [egg-multipart] stream mode enable
+2022-03-31 11:07:52,695 INFO 13376 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:07:53,117 INFO 13376 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:07:53,123 INFO 13376 [egg-security] use methodnoallow middleware
+2022-03-31 11:07:53,124 INFO 13376 [egg-security] use noopen middleware
+2022-03-31 11:07:53,127 INFO 13376 [egg-security] use nosniff middleware
+2022-03-31 11:07:53,128 INFO 13376 [egg-security] use xssProtection middleware
+2022-03-31 11:07:53,129 INFO 13376 [egg-security] use xframe middleware
+2022-03-31 11:07:53,130 INFO 13376 [egg-security] use dta middleware
+2022-03-31 11:07:53,130 INFO 13376 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:07:53,155 INFO 13376 [egg:core] dump config after load, 8ms
+2022-03-31 11:07:53,170 INFO 13376 [egg-watcher:application] watcher start success
+2022-03-31 11:07:53,361 INFO 13376 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:07:53 GMT+0800 (中国标准时间)
+2022-03-31 11:07:53,398 INFO 13376 [egg:core] dump config after ready, 31ms
+2022-03-31 11:08:18,774 INFO 18916 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:08:18,826 INFO 18916 [egg-multipart] stream mode enable
+2022-03-31 11:08:18,828 INFO 18916 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:08:19,234 INFO 18916 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:08:19,238 INFO 18916 [egg-security] use methodnoallow middleware
+2022-03-31 11:08:19,240 INFO 18916 [egg-security] use noopen middleware
+2022-03-31 11:08:19,242 INFO 18916 [egg-security] use nosniff middleware
+2022-03-31 11:08:19,243 INFO 18916 [egg-security] use xssProtection middleware
+2022-03-31 11:08:19,244 INFO 18916 [egg-security] use xframe middleware
+2022-03-31 11:08:19,245 INFO 18916 [egg-security] use dta middleware
+2022-03-31 11:08:19,245 INFO 18916 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:08:19,272 INFO 18916 [egg:core] dump config after load, 8ms
+2022-03-31 11:08:19,289 INFO 18916 [egg-watcher:application] watcher start success
+2022-03-31 11:08:19,446 INFO 18916 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:08:19 GMT+0800 (中国标准时间)
+2022-03-31 11:08:19,457 INFO 18916 [egg:core] dump config after ready, 9ms
+2022-03-31 11:09:00,309 INFO 14888 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:09:00,355 INFO 14888 [egg-multipart] stream mode enable
+2022-03-31 11:09:00,358 INFO 14888 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:09:00,770 INFO 14888 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:09:00,774 INFO 14888 [egg-security] use methodnoallow middleware
+2022-03-31 11:09:00,775 INFO 14888 [egg-security] use noopen middleware
+2022-03-31 11:09:00,779 INFO 14888 [egg-security] use nosniff middleware
+2022-03-31 11:09:00,781 INFO 14888 [egg-security] use xssProtection middleware
+2022-03-31 11:09:00,782 INFO 14888 [egg-security] use xframe middleware
+2022-03-31 11:09:00,783 INFO 14888 [egg-security] use dta middleware
+2022-03-31 11:09:00,783 INFO 14888 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:09:00,805 INFO 14888 [egg:core] dump config after load, 6ms
+2022-03-31 11:09:00,819 INFO 14888 [egg-watcher:application] watcher start success
+2022-03-31 11:09:01,004 INFO 14888 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:09:01 GMT+0800 (中国标准时间)
+2022-03-31 11:09:01,015 INFO 14888 [egg:core] dump config after ready, 9ms
+2022-03-31 11:09:35,885 INFO 18484 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:09:35,953 INFO 18484 [egg-multipart] stream mode enable
+2022-03-31 11:09:35,955 INFO 18484 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:09:36,332 INFO 18484 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:09:36,337 INFO 18484 [egg-security] use methodnoallow middleware
+2022-03-31 11:09:36,338 INFO 18484 [egg-security] use noopen middleware
+2022-03-31 11:09:36,342 INFO 18484 [egg-security] use nosniff middleware
+2022-03-31 11:09:36,344 INFO 18484 [egg-security] use xssProtection middleware
+2022-03-31 11:09:36,346 INFO 18484 [egg-security] use xframe middleware
+2022-03-31 11:09:36,347 INFO 18484 [egg-security] use dta middleware
+2022-03-31 11:09:36,347 INFO 18484 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:09:36,369 INFO 18484 [egg:core] dump config after load, 6ms
+2022-03-31 11:09:36,384 INFO 18484 [egg-watcher:application] watcher start success
+2022-03-31 11:09:36,526 INFO 18484 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:09:36 GMT+0800 (中国标准时间)
+2022-03-31 11:09:36,534 INFO 18484 [egg:core] dump config after ready, 7ms
+2022-03-31 11:10:20,503 INFO 10140 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:10:20,558 INFO 10140 [egg-multipart] stream mode enable
+2022-03-31 11:10:20,559 INFO 10140 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:10:20,919 INFO 10140 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:10:20,923 INFO 10140 [egg-security] use methodnoallow middleware
+2022-03-31 11:10:20,925 INFO 10140 [egg-security] use noopen middleware
+2022-03-31 11:10:20,927 INFO 10140 [egg-security] use nosniff middleware
+2022-03-31 11:10:20,928 INFO 10140 [egg-security] use xssProtection middleware
+2022-03-31 11:10:20,929 INFO 10140 [egg-security] use xframe middleware
+2022-03-31 11:10:20,930 INFO 10140 [egg-security] use dta middleware
+2022-03-31 11:10:20,930 INFO 10140 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:10:20,952 INFO 10140 [egg:core] dump config after load, 6ms
+2022-03-31 11:10:20,970 INFO 10140 [egg-watcher:application] watcher start success
+2022-03-31 11:10:21,105 INFO 10140 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:10:21 GMT+0800 (中国标准时间)
+2022-03-31 11:10:21,121 INFO 10140 [egg:core] dump config after ready, 13ms
+2022-03-31 11:10:42,139 INFO 4996 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:10:42,188 INFO 4996 [egg-multipart] stream mode enable
+2022-03-31 11:10:42,189 INFO 4996 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:10:42,623 INFO 4996 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:10:42,627 INFO 4996 [egg-security] use methodnoallow middleware
+2022-03-31 11:10:42,628 INFO 4996 [egg-security] use noopen middleware
+2022-03-31 11:10:42,634 INFO 4996 [egg-security] use nosniff middleware
+2022-03-31 11:10:42,636 INFO 4996 [egg-security] use xssProtection middleware
+2022-03-31 11:10:42,638 INFO 4996 [egg-security] use xframe middleware
+2022-03-31 11:10:42,639 INFO 4996 [egg-security] use dta middleware
+2022-03-31 11:10:42,639 INFO 4996 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:10:42,661 INFO 4996 [egg:core] dump config after load, 6ms
+2022-03-31 11:10:42,681 INFO 4996 [egg-watcher:application] watcher start success
+2022-03-31 11:10:42,858 INFO 4996 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:10:43 GMT+0800 (中国标准时间)
+2022-03-31 11:10:42,893 INFO 4996 [egg:core] dump config after ready, 22ms
+2022-03-31 11:10:47,852 INFO 14916 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:10:47,915 INFO 14916 [egg-multipart] stream mode enable
+2022-03-31 11:10:47,917 INFO 14916 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:10:48,287 INFO 14916 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:10:48,291 INFO 14916 [egg-security] use methodnoallow middleware
+2022-03-31 11:10:48,293 INFO 14916 [egg-security] use noopen middleware
+2022-03-31 11:10:48,295 INFO 14916 [egg-security] use nosniff middleware
+2022-03-31 11:10:48,297 INFO 14916 [egg-security] use xssProtection middleware
+2022-03-31 11:10:48,298 INFO 14916 [egg-security] use xframe middleware
+2022-03-31 11:10:48,299 INFO 14916 [egg-security] use dta middleware
+2022-03-31 11:10:48,299 INFO 14916 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:10:48,322 INFO 14916 [egg:core] dump config after load, 8ms
+2022-03-31 11:10:48,337 INFO 14916 [egg-watcher:application] watcher start success
+2022-03-31 11:10:48,508 INFO 14916 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:10:48 GMT+0800 (中国标准时间)
+2022-03-31 11:10:48,518 INFO 14916 [egg:core] dump config after ready, 8ms
+2022-03-31 11:11:22,070 INFO 3280 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:11:22,132 INFO 3280 [egg-multipart] stream mode enable
+2022-03-31 11:11:22,134 INFO 3280 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:11:22,520 INFO 3280 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:11:22,524 INFO 3280 [egg-security] use methodnoallow middleware
+2022-03-31 11:11:22,525 INFO 3280 [egg-security] use noopen middleware
+2022-03-31 11:11:22,529 INFO 3280 [egg-security] use nosniff middleware
+2022-03-31 11:11:22,530 INFO 3280 [egg-security] use xssProtection middleware
+2022-03-31 11:11:22,531 INFO 3280 [egg-security] use xframe middleware
+2022-03-31 11:11:22,532 INFO 3280 [egg-security] use dta middleware
+2022-03-31 11:11:22,532 INFO 3280 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:11:22,552 INFO 3280 [egg:core] dump config after load, 6ms
+2022-03-31 11:11:22,568 INFO 3280 [egg-watcher:application] watcher start success
+2022-03-31 11:11:22,701 INFO 3280 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:11:22 GMT+0800 (中国标准时间)
+2022-03-31 11:11:22,714 INFO 3280 [egg:core] dump config after ready, 11ms
+2022-03-31 11:12:53,018 INFO 19064 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:12:53,067 INFO 19064 [egg-multipart] stream mode enable
+2022-03-31 11:12:53,069 INFO 19064 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:12:53,473 INFO 19064 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:12:53,482 INFO 19064 [egg-security] use methodnoallow middleware
+2022-03-31 11:12:53,489 INFO 19064 [egg-security] use noopen middleware
+2022-03-31 11:12:53,493 INFO 19064 [egg-security] use nosniff middleware
+2022-03-31 11:12:53,498 INFO 19064 [egg-security] use xssProtection middleware
+2022-03-31 11:12:53,503 INFO 19064 [egg-security] use xframe middleware
+2022-03-31 11:12:53,504 INFO 19064 [egg-security] use dta middleware
+2022-03-31 11:12:53,504 INFO 19064 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:12:53,540 INFO 19064 [egg:core] dump config after load, 12ms
+2022-03-31 11:12:53,558 INFO 19064 [egg-watcher:application] watcher start success
+2022-03-31 11:12:53,724 INFO 19064 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:12:53 GMT+0800 (中国标准时间)
+2022-03-31 11:12:53,766 INFO 19064 [egg:core] dump config after ready, 33ms
+2022-03-31 11:13:00,906 INFO 14000 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:13:00,950 INFO 14000 [egg-multipart] stream mode enable
+2022-03-31 11:13:00,952 INFO 14000 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:13:01,271 INFO 14000 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:13:01,275 INFO 14000 [egg-security] use methodnoallow middleware
+2022-03-31 11:13:01,277 INFO 14000 [egg-security] use noopen middleware
+2022-03-31 11:13:01,279 INFO 14000 [egg-security] use nosniff middleware
+2022-03-31 11:13:01,281 INFO 14000 [egg-security] use xssProtection middleware
+2022-03-31 11:13:01,282 INFO 14000 [egg-security] use xframe middleware
+2022-03-31 11:13:01,283 INFO 14000 [egg-security] use dta middleware
+2022-03-31 11:13:01,283 INFO 14000 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:13:01,306 INFO 14000 [egg:core] dump config after load, 7ms
+2022-03-31 11:13:01,323 INFO 14000 [egg-watcher:application] watcher start success
+2022-03-31 11:13:01,503 INFO 14000 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:13:01 GMT+0800 (中国标准时间)
+2022-03-31 11:13:01,518 INFO 14000 [egg:core] dump config after ready, 9ms
+2022-03-31 11:13:32,875 INFO 128 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:13:32,922 INFO 128 [egg-multipart] stream mode enable
+2022-03-31 11:13:32,924 INFO 128 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:13:33,266 INFO 128 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:13:33,270 INFO 128 [egg-security] use methodnoallow middleware
+2022-03-31 11:13:33,271 INFO 128 [egg-security] use noopen middleware
+2022-03-31 11:13:33,274 INFO 128 [egg-security] use nosniff middleware
+2022-03-31 11:13:33,275 INFO 128 [egg-security] use xssProtection middleware
+2022-03-31 11:13:33,277 INFO 128 [egg-security] use xframe middleware
+2022-03-31 11:13:33,278 INFO 128 [egg-security] use dta middleware
+2022-03-31 11:13:33,278 INFO 128 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:13:33,298 INFO 128 [egg:core] dump config after load, 6ms
+2022-03-31 11:13:33,313 INFO 128 [egg-watcher:application] watcher start success
+2022-03-31 11:13:33,449 INFO 128 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:13:33 GMT+0800 (中国标准时间)
+2022-03-31 11:13:33,458 INFO 128 [egg:core] dump config after ready, 7ms
+2022-03-31 11:13:39,881 INFO 16956 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:13:39,924 INFO 16956 [egg-multipart] stream mode enable
+2022-03-31 11:13:39,926 INFO 16956 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:13:40,251 INFO 16956 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:13:40,254 INFO 16956 [egg-security] use methodnoallow middleware
+2022-03-31 11:13:40,256 INFO 16956 [egg-security] use noopen middleware
+2022-03-31 11:13:40,258 INFO 16956 [egg-security] use nosniff middleware
+2022-03-31 11:13:40,260 INFO 16956 [egg-security] use xssProtection middleware
+2022-03-31 11:13:40,261 INFO 16956 [egg-security] use xframe middleware
+2022-03-31 11:13:40,262 INFO 16956 [egg-security] use dta middleware
+2022-03-31 11:13:40,262 INFO 16956 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:13:40,281 INFO 16956 [egg:core] dump config after load, 6ms
+2022-03-31 11:13:40,296 INFO 16956 [egg-watcher:application] watcher start success
+2022-03-31 11:13:40,451 INFO 16956 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:13:40 GMT+0800 (中国标准时间)
+2022-03-31 11:13:40,463 INFO 16956 [egg:core] dump config after ready, 10ms
+2022-03-31 11:14:41,352 INFO 9432 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:14:41,398 INFO 9432 [egg-multipart] stream mode enable
+2022-03-31 11:14:41,401 INFO 9432 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:14:41,729 INFO 9432 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:14:41,734 INFO 9432 [egg-security] use methodnoallow middleware
+2022-03-31 11:14:41,736 INFO 9432 [egg-security] use noopen middleware
+2022-03-31 11:14:41,739 INFO 9432 [egg-security] use nosniff middleware
+2022-03-31 11:14:41,740 INFO 9432 [egg-security] use xssProtection middleware
+2022-03-31 11:14:41,741 INFO 9432 [egg-security] use xframe middleware
+2022-03-31 11:14:41,742 INFO 9432 [egg-security] use dta middleware
+2022-03-31 11:14:41,742 INFO 9432 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:14:41,763 INFO 9432 [egg:core] dump config after load, 6ms
+2022-03-31 11:14:41,776 INFO 9432 [egg-watcher:application] watcher start success
+2022-03-31 11:14:41,942 INFO 9432 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:14:42 GMT+0800 (中国标准时间)
+2022-03-31 11:14:41,952 INFO 9432 [egg:core] dump config after ready, 9ms
+2022-03-31 11:15:48,836 INFO 6892 [egg:logger] init all loggers with options: {"dir":"E:\\project\\mrs-app-code-creator\\admin\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-31 11:15:48,880 INFO 6892 [egg-multipart] stream mode enable
+2022-03-31 11:15:48,882 INFO 6892 [egg-mysql] connecting root@39.103.231.26:18836/generate-code
+2022-03-31 11:15:49,282 INFO 6892 [egg-static] starting static serve /public/ -> E:\project\mrs-app-code-creator\admin\app\public
+2022-03-31 11:15:49,286 INFO 6892 [egg-security] use methodnoallow middleware
+2022-03-31 11:15:49,290 INFO 6892 [egg-security] use noopen middleware
+2022-03-31 11:15:49,302 INFO 6892 [egg-security] use nosniff middleware
+2022-03-31 11:15:49,303 INFO 6892 [egg-security] use xssProtection middleware
+2022-03-31 11:15:49,304 INFO 6892 [egg-security] use xframe middleware
+2022-03-31 11:15:49,306 INFO 6892 [egg-security] use dta middleware
+2022-03-31 11:15:49,306 INFO 6892 [egg-security] compose 6 middlewares into one security middleware
+2022-03-31 11:15:49,377 INFO 6892 [egg:core] dump config after load, 20ms
+2022-03-31 11:15:49,414 INFO 6892 [egg-watcher:application] watcher start success
+2022-03-31 11:15:49,570 INFO 6892 [egg-mysql] instance[0] status OK, rds currentTime: Thu Mar 31 2022 03:15:49 GMT+0800 (中国标准时间)
+2022-03-31 11:15:49,586 INFO 6892 [egg:core] dump config after ready, 14ms
+2022-04-01 08:53:09,904 WARN 6892 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-01 08:53:09,905 WARN 6892 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-01 08:53:10,354 INFO 6892 [egg-logrotator] start remove E:\project\mrs-app-code-creator\admin\logs\egg files: common-error.log.2022-02-25, common-error.log.2022-02-26, egg-agent.log.2022-02-25, egg-agent.log.2022-02-26, egg-schedule.log.2022-02-25, egg-schedule.log.2022-02-26, egg-web.log.2022-02-25, egg-web.log.2022-02-26
+2022-04-01 08:53:10,621 INFO 6892 [egg-logrotator] clean all log before 31 days
+2022-04-01 08:53:10,869 INFO 6892 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\proaim\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg"
+2022-04-01 08:53:11,809 INFO 6892 [-/127.0.0.1/-/941ms SCHEDULE /__schedule?path=E:\project\mrs-app-code-creator\admin\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-04-01 08:53:12,266 INFO 6892 [egg-logrotator] broadcast log-reload
+2022-04-01 08:53:12,279 INFO 6892 [egg-logrotator] rotate files success by DayRotator, files ["E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\common-error.log -> E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\common-error.log.2022-03-31","E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\egg-web.log -> E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\egg-web.log.2022-03-31","E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\egg-schedule.log -> E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\egg-schedule.log.2022-03-31","E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\egg-agent.log -> E:\\project\\mrs-app-code-creator\\admin\\logs\\egg\\egg-agent.log.2022-03-31"]

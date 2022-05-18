@@ -1,0 +1,1488 @@
+2022-02-28 09:35:21,163 ERROR 14748 [-/127.0.0.1/-/89ms GET /gen/1] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.gen_data' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_data` WHERE `gen_id` = '1'
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.gen_data' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `gen_data` WHERE `gen_id` = '1'"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14748
+hostname: DESKTOP-IKGNHEN
+
+2022-02-28 09:35:25,632 ERROR 14748 [-/127.0.0.1/-/86ms GET /gen/1] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.gen_data' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_data` WHERE `gen_id` = '1'
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.gen_data' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `gen_data` WHERE `gen_id` = '1'"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14748
+hostname: DESKTOP-IKGNHEN
+
+2022-02-28 09:35:40,537 ERROR 14748 [-/127.0.0.1/-/89ms GET /gen/1] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.gen_data' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_data` WHERE `gen_id` = '1'
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.gen_data' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `gen_data` WHERE `gen_id` = '1'"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14748
+hostname: DESKTOP-IKGNHEN
+
+2022-02-28 09:35:45,668 ERROR 14748 [-/127.0.0.1/-/86ms GET /gen/1] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.gen_data' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_data` WHERE `gen_id` = '1'
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.gen_data' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `gen_data` WHERE `gen_id` = '1'"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14748
+hostname: DESKTOP-IKGNHEN
+
+2022-03-03 18:36:39,935 ERROR 8392 [-/127.0.0.1/-/217ms GET /gen/1] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.gen_data' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_data` WHERE `gen_id` = '1'
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.gen_data' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `gen_data` WHERE `gen_id` = '1'"
+name: "ER_NO_SUCH_TABLEError"
+pid: 8392
+hostname: DESKTOP-IKGNHEN
+
+2022-03-03 18:43:43,152 ERROR 8392 [-/127.0.0.1/-/243ms GET /gen/1] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.gen_data' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_data` WHERE `gen_id` = '1'
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.gen_data' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `gen_data` WHERE `gen_id` = '1'"
+name: "ER_NO_SUCH_TABLEError"
+pid: 8392
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 11:24:39,818 ERROR 13480 [-/127.0.0.1/-/2104ms GET /genProject] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Helper.hump (E:\project\mrs-app-code-creator\admin\app\extend\helper.js:16:12)
+    at GenProjectController.queryList (E:\project\mrs-app-code-creator\admin\app\controller\genProject.js:12:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async E:\project\mrs-app-code-creator\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\mrs-app-code-creator\admin\node_modules\koa-session\index.js:41:7)
+
+pid: 13480
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 11:43:41,358 ERROR 13480 [-/127.0.0.1/-/322ms GET /genProject] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Helper.hump (E:\project\mrs-app-code-creator\admin\app\extend\helper.js:16:12)
+    at GenProjectController.queryList (E:\project\mrs-app-code-creator\admin\app\controller\genProject.js:12:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async E:\project\mrs-app-code-creator\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\mrs-app-code-creator\admin\node_modules\koa-session\index.js:41:7)
+
+pid: 13480
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 13:31:33,663 ERROR 4816 [-/127.0.0.1/-/6ms GET /genProject] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 39.103.231.26:18836
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+    --------------------
+    at Protocol._enqueue (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:48:16)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:202:8)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    sql: SELECT * FROM `gen_project`
+errno: -4073
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "39.103.231.26"
+port: 18836
+fatal: true
+name: "EHOSTUNREACHError"
+pid: 4816
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:05:29,426 ERROR 440 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\public\\js"
+name: "EPERMError"
+pid: 440
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:05:29,435 ERROR 440 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\public\\css"
+name: "EPERMError"
+pid: 440
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:05:29,439 ERROR 440 nodejs.ENOENTError: ENOENT: no such file or directory, scandir 'E:\project\mrs-app-code-creator\admin\app\public\js'
+ENOENTError: ENOENT: no such file or directory, scandir 'E:\project\mrs-app-code-creator\admin\app\public\js'
+errno: -4058
+code: "ENOENT"
+syscall: "scandir"
+path: "E:\\project\\mrs-app-code-creator\\admin\\app\\public\\js"
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\public\\js"
+name: "ENOENTError"
+pid: 440
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:05:29,527 ERROR 440 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\public"
+name: "EPERMError"
+pid: 440
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:17:25,272 ERROR 15516 [-/127.0.0.1/-/12ms POST /insertProject] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\project\mrs-app-code-creator\admin\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\project\mrs-app-code-creator\admin\node_modules\egg\app\extend\context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\mrs-app-code-creator\admin\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\mrs-app-code-creator\admin\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15516
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:22:08,104 ERROR 20476 [-/127.0.0.1/-/133ms POST /insertProject] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.posgen_projects' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `posgen_projects`(`name`) VALUES('测试项目')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.posgen_projects' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `posgen_projects`(`name`) VALUES('测试项目')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 20476
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:22:36,970 ERROR 4836 [-/127.0.0.1/-/134ms POST /insertProject] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'generate-code.posgen_projects' doesn't exist
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `posgen_projects`(`name`) VALUES('测试项目')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'generate-code.posgen_projects' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `posgen_projects`(`name`) VALUES('测试项目')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 4836
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:31:37,722 ERROR 4644 [-/127.0.0.1/-/125ms DELETE /removeProject] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2' at line 1
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project` WHERE `where` = `id` = 1, 2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project` WHERE `where` = `id` = 1, 2"
+name: "ER_PARSE_ERRORError"
+pid: 4644
+hostname: DESKTOP-IKGNHEN
+
+2022-03-05 22:32:19,859 ERROR 14360 [-/127.0.0.1/-/128ms DELETE /removeProject] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2' at line 1
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project` WHERE `where` = `id` = 1, 2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project` WHERE `where` = `id` = 1, 2"
+name: "ER_PARSE_ERRORError"
+pid: 14360
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 14:02:31,726 ERROR 19264 [-/::1/-/114ms GET /getProjectConfigByProjectId?id=123] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'where' in 'where clause'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_project_config` WHERE `where` = `project_id` = '123' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'where' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `gen_project_config` WHERE `where` = `project_id` = '123' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 19264
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 14:02:50,237 ERROR 19264 [-/::1/-/109ms GET /getProjectConfigByProjectId?id=123] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'where' in 'where clause'
+    at Query.Sequence._packetToError (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\project\mrs-app-code-creator\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\project\mrs-app-code-creator\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:65:19)
+    at E:\project\mrs-app-code-creator\admin\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `gen_project_config` WHERE `where` = `project_id` = '123' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'where' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `gen_project_config` WHERE `where` = `project_id` = '123' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 19264
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 16:54:54,836 ERROR 14480 [-/::1/-/7ms POST /download] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\mrs-app-code-creator\admin\view\gen\list.tpl'
+Error: ENOENT: no such file or directory, open 'E:\project\mrs-app-code-creator\admin\view\gen\list.tpl'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\mrs-app-code-creator\\admin\\view\\gen\\list.tpl"
+name: "ENOENTError"
+pid: 14480
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:02:07,588 ERROR 19548 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\public"
+name: "EPERMError"
+pid: 19548
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:02:44,281 ERROR 19548 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\view\\gen"
+name: "EPERMError"
+pid: 19548
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:02:44,283 ERROR 19548 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\view\\home"
+name: "EPERMError"
+pid: 19548
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:02:44,288 ERROR 19548 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\view\\news"
+name: "EPERMError"
+pid: 19548
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:02:44,388 ERROR 19548 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (node:internal/fs/watchers:204:21)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\project\\mrs-app-code-creator\\admin\\app\\view"
+name: "EPERMError"
+pid: 19548
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:03:09,211 ERROR 17412 [-/::1/-/7ms POST /download] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\mrs-app-code-creator\admin\app\view\gen\list.tpl'
+Error: ENOENT: no such file or directory, open 'E:\project\mrs-app-code-creator\admin\app\view\gen\list.tpl'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\mrs-app-code-creator\\admin\\app\\view\\gen\\list.tpl"
+name: "ENOENTError"
+pid: 17412
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:05:00,376 ERROR 21008 [-/::1/-/9ms POST /download] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\mrs-app-code-creator\admin\app\docs\tpl\list.tpl'
+Error: ENOENT: no such file or directory, open 'E:\project\mrs-app-code-creator\admin\app\docs\tpl\list.tpl'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\mrs-app-code-creator\\admin\\app\\docs\\tpl\\list.tpl"
+name: "ENOENTError"
+pid: 21008
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:17:00,955 ERROR 20260 [-/::1/-/5ms POST /download] nodejs.ReferenceError: readFileSync is not defined
+    at GenProjectController.download (E:\project\mrs-app-code-creator\admin\app\controller\gen_project.js:48:25)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:36:12
+
+pid: 20260
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:17:27,640 ERROR 11988 [-/::1/-/6ms POST /download] nodejs.TypeError: fs.eadFileSync is not a function
+    at GenProjectController.download (E:\project\mrs-app-code-creator\admin\app\controller\gen_project.js:48:28)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:36:12
+
+pid: 11988
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:23:38,703 ERROR 19804 [-/::1/-/6ms POST /download] nodejs.ENOTDIRError: ENOTDIR: not a directory, scandir 'app/temp/tpl/list.tpl'
+    at Object.readdirSync (node:fs:1390:3)
+    at GenProjectController.download (E:\project\mrs-app-code-creator\admin\app\controller\gen_project.js:47:33)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+errno: -4052
+syscall: "scandir"
+code: "ENOTDIR"
+path: "app/temp/tpl/list.tpl"
+name: "ENOTDIRError"
+pid: 19804
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:49:01,258 ERROR 6228 [-/::1/-/8ms POST /download] nodejs.ReferenceError: error is not defined
+    at GenProjectController.error (E:\project\mrs-app-code-creator\admin\app\core\base_controller.js:12:17)
+    at GenProjectController.download (E:\project\mrs-app-code-creator\admin\app\controller\gen_project.js:61:18)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+
+pid: 6228
+hostname: DESKTOP-IKGNHEN
+
+2022-03-06 17:49:26,557 ERROR 9920 [-/::1/-/10ms POST /download] nodejs.ReferenceError: error is not defined
+    at GenProjectController.error (E:\project\mrs-app-code-creator\admin\app\core\base_controller.js:12:17)
+    at GenProjectController.download (E:\project\mrs-app-code-creator\admin\app\controller\gen_project.js:60:18)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\mrs-app-code-creator\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\project\mrs-app-code-creator\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\project\mrs-app-code-creator\admin\node_modules\koa-compose\index.js:44:32)
+
+pid: 9920
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:28:08,975 ERROR 2176 [-/127.0.0.1/-/219ms POST /insertProjectConfig] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '__v_isShallow' in 'field list'
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `gen_project_config`(`__v_isShallow`, `dep`, `__v_isRef`, `_rawValue`, `_value`) VALUES(false, '[object Object]', true, ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'), ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'))
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '__v_isShallow' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `gen_project_config`(`__v_isShallow`, `dep`, `__v_isRef`, `_rawValue`, `_value`) VALUES(false, '[object Object]', true, ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'), ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'))"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 2176
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:28:14,535 ERROR 2176 [-/127.0.0.1/-/214ms POST /insertProjectConfig] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '__v_isShallow' in 'field list'
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `gen_project_config`(`__v_isShallow`, `dep`, `__v_isRef`, `_rawValue`, `_value`) VALUES(false, '[object Object]', true, ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'), ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'))
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '__v_isShallow' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `gen_project_config`(`__v_isShallow`, `dep`, `__v_isRef`, `_rawValue`, `_value`) VALUES(false, '[object Object]', true, ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'), ('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]'))"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 2176
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:28:35,436 ERROR 2176 [-/127.0.0.1/-/199ms POST /insertProjectConfig] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `gen_project_config`(`id`, `project_id`, `key`, `name`, `type`, `html_type`, `is_deleted`) VALUES(1, 4, '配置key', '测试修改22222', '配置类型', '配置组件的类型', '0'), (3, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (4, 4, 'ke2y', 'nam2e', NULL, NULL, '0'), (11, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (12, 4, 'ke2y', 'nam2e', NULL, NULL, '0')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '1' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `gen_project_config`(`id`, `project_id`, `key`, `name`, `type`, `html_type`, `is_deleted`) VALUES(1, 4, '配置key', '测试修改22222', '配置类型', '配置组件的类型', '0'), (3, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (4, 4, 'ke2y', 'nam2e', NULL, NULL, '0'), (11, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (12, 4, 'ke2y', 'nam2e', NULL, NULL, '0')"
+name: "ER_DUP_ENTRYError"
+pid: 2176
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:28:38,767 ERROR 2176 [-/127.0.0.1/-/197ms POST /insertProjectConfig] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `gen_project_config`(`id`, `project_id`, `key`, `name`, `type`, `html_type`, `is_deleted`) VALUES(1, 4, '配置key', '测试修改22222', '配置类型', '配置组件的类型', '0'), (3, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (4, 4, 'ke2y', 'nam2e', NULL, NULL, '0'), (11, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (12, 4, 'ke2y', 'nam2e', NULL, NULL, '0')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '1' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `gen_project_config`(`id`, `project_id`, `key`, `name`, `type`, `html_type`, `is_deleted`) VALUES(1, 4, '配置key', '测试修改22222', '配置类型', '配置组件的类型', '0'), (3, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (4, 4, 'ke2y', 'nam2e', NULL, NULL, '0'), (11, 4, 'ke1y', 'nam1e', NULL, NULL, '0'), (12, 4, 'ke2y', 'nam2e', NULL, NULL, '0')"
+name: "ER_DUP_ENTRYError"
+pid: 2176
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:29:08,679 ERROR 2176 [-/127.0.0.1/-/1ms POST /insertProjectConfig] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (E:\github\admin\node_modules\ali-rds\lib\operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as insert] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.insert (E:\github\admin\app\service\gen_project_config.js:14:42)
+    at GenProjectConfigController.insert (E:\github\admin\app\controller\gen_project_config.js:13:56)
+
+pid: 2176
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:32:57,330 ERROR 9868 [-/127.0.0.1/-/10ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:28:42)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9868
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:33:05,609 ERROR 9868 [-/127.0.0.1/-/1ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:28:42)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9868
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:35:06,396 ERROR 11108 [-/127.0.0.1/-/16ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:30:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 11108
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:35:45,484 ERROR 11368 [-/127.0.0.1/-/18ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:31:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 11368
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:36:37,686 ERROR 9960 [-/127.0.0.1/-/20ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:37:52,086 ERROR 9960 [-/127.0.0.1/-/204ms PUT /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:39:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:38:33,147 ERROR 9960 [-/127.0.0.1/-/10ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:38:42,909 ERROR 9960 [-/127.0.0.1/-/8ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:38:50,679 ERROR 9960 [-/127.0.0.1/-/11ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:39:40,112 ERROR 9960 [-/127.0.0.1/-/7ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:39:40,757 ERROR 9960 [-/127.0.0.1/-/10ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:39:40,945 ERROR 9960 [-/127.0.0.1/-/12ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:39:41,473 ERROR 9960 [-/127.0.0.1/-/28ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:39:41,622 ERROR 9960 [-/127.0.0.1/-/6ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 9960
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:41:00,488 ERROR 12332 [-/127.0.0.1/-/18ms PUT /updateProjectConfig] nodejs.TypeError: console is not a function
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:29:9)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\github\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\github\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\github\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\github\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\github\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\github\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\github\admin\node_modules\koa-compose\index.js:44:32)
+
+pid: 12332
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:41:09,461 ERROR 12332 [-/127.0.0.1/-/1ms PUT /updateProjectConfig] nodejs.TypeError: console is not a function
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:29:9)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\github\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\github\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\github\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\github\admin\node_modules\koa-compose\index.js:44:32)
+    at next (E:\github\admin\node_modules\koa-compose\index.js:45:18)
+    at E:\github\admin\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\github\admin\node_modules\koa-compose\index.js:44:32)
+
+pid: 12332
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:42:30,307 ERROR 11400 [-/127.0.0.1/-/221ms PUT /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:40:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11400
+hostname: DESKTOP-IKGNHEN
+
+2022-03-08 18:43:15,531 ERROR 5192 [-/127.0.0.1/-/24ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:33:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 5192
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:26:54,215 ERROR 15004 [-/127.0.0.1/-/44ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:33:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 15004
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:28:15,784 ERROR 5508 [-/127.0.0.1/-/718ms PUT /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:40:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 5508
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:28:43,084 ERROR 5508 [-/127.0.0.1/-/1094ms PUT /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:40:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 5508
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:38:39,259 ERROR 5508 [-/127.0.0.1/-/204ms POST /insertProjectConfig] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '23' for key 'PRIMARY'
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: INSERT INTO `gen_project_config`(`id`, `project_id`, `key`, `name`, `type`, `html_type`, `is_deleted`) VALUES(23, NULL, '2', '25', NULL, NULL, '0')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '23' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `gen_project_config`(`id`, `project_id`, `key`, `name`, `type`, `html_type`, `is_deleted`) VALUES(23, NULL, '2', '25', NULL, NULL, '0')"
+name: "ER_DUP_ENTRYError"
+pid: 5508
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:39:38,615 ERROR 5508 [-/127.0.0.1/-/6ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:33:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 5508
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:40:17,738 ERROR 16312 [-/127.0.0.1/-/27ms PUT /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 16312
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:41:22,074 ERROR 16312 [-/127.0.0.1/-/187ms PUT /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16312
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:46:02,012 ERROR 12680 [-/127.0.0.1/-/191ms PUT /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12680
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:47:14,354 ERROR 8752 [-/127.0.0.1/-/192ms POST /updateProjectConfig] nodejs.TypeError: Assignment to constant variable.
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:19)
+    at async E:\github\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\github\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\github\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\github\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\github\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\github\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\github\admin\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8752
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:49:45,054 ERROR 6692 [-/127.0.0.1/-/11ms POST /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:32:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 6692
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 08:50:42,129 ERROR 8000 [-/127.0.0.1/-/32ms POST /updateProjectConfig] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (E:\github\admin\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\github\admin\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\github\admin\node_modules\co\index.js:30:15)
+    at GenProjectConfigService.update (E:\github\admin\app\service\gen_project_config.js:31:46)
+    at GenProjectConfigController.update (E:\github\admin\app\controller\gen_project_config.js:25:54)
+    at Object.callFn (E:\github\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+
+pid: 8000
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 09:01:28,169 ERROR 16656 [-/127.0.0.1/-/275ms DELETE /removeProjectConfig?id={id}] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project_config` WHERE `id` =
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project_config` WHERE `id` = "
+name: "ER_PARSE_ERRORError"
+pid: 16656
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 09:01:41,883 ERROR 16656 [-/127.0.0.1/-/233ms DELETE /removeProjectConfig?id={id}] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project_config` WHERE `id` =
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project_config` WHERE `id` = "
+name: "ER_PARSE_ERRORError"
+pid: 16656
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 09:02:53,418 ERROR 16656 [-/127.0.0.1/-/179ms DELETE /removeProjectConfig?id=30] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project_config` WHERE `id` =
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project_config` WHERE `id` = "
+name: "ER_PARSE_ERRORError"
+pid: 16656
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 09:02:55,139 ERROR 16656 [-/127.0.0.1/-/181ms DELETE /removeProjectConfig?id=31] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project_config` WHERE `id` =
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project_config` WHERE `id` = "
+name: "ER_PARSE_ERRORError"
+pid: 16656
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 09:03:24,143 ERROR 16656 [-/127.0.0.1/-/190ms DELETE /removeProjectConfig?id=30] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project_config` WHERE `id` =
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project_config` WHERE `id` = "
+name: "ER_PARSE_ERRORError"
+pid: 16656
+hostname: DESKTOP-IKGNHEN
+
+2022-03-09 09:04:07,721 ERROR 16656 [-/127.0.0.1/-/274ms DELETE /removeProjectConfig?id=34] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\github\admin\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\github\admin\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\github\admin\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\github\admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (E:\github\admin\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\github\admin\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\github\admin\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\github\admin\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\github\admin\node_modules\co\index.js:65:19)
+    at E:\github\admin\node_modules\co\index.js:54:5
+    sql: DELETE FROM `gen_project_config` WHERE `id` =
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE FROM `gen_project_config` WHERE `id` = "
+name: "ER_PARSE_ERRORError"
+pid: 16656
+hostname: DESKTOP-IKGNHEN
+
+2022-03-14 15:17:27,536 ERROR 19460 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19460
+hostname: DESKTOP-IKGNHEN
+
+2022-03-15 08:53:46,269 ERROR 19460 nodejs.ClusterClientNoResponseError: client no response in 52788740ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\mrs-app-code-creator\admin\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19460
+hostname: DESKTOP-IKGNHEN
+
